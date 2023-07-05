@@ -1,0 +1,81 @@
+main {
+  background-image: url("./img/bienbenida-bank.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#home-title {
+  color: #200a29;
+}
+
+#section-main {
+  background-color: rgba(0, 0, 0, 0.85);
+}
+
+#section-main h2{
+  color: #cbb4d4;
+}
+
+.form-floating {
+  position: relative;
+  border-radius: 35px;
+
+}
+
+.btn-action {
+  width: 200px;
+  padding-block: 20px;
+  border: 0;
+  outline: 0;
+  background: linear-gradient(to right, #1433e2, #cbb4d4);
+  color: #fff;
+  font-size: 1rem;
+  font-weight: bold;
+  border-radius: 15px 0;
+
+  &:hover {
+    opacity: .8;
+  }
+}
+
+.btn-container {
+  min-width: 350px;
+}
+
+.receipt h2,
+.receipt p {
+  color: #20002c;
+}
+
+.receipt-item {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: .5px solid #cbb4d4;
+}
+
+.receipt-item small {
+  font-weight: bold;
+  color: #20002c;
+}
+
+.error {
+  text-align: center;
+  color: red;
+  font-weight: bold;
+}
+
+@media screen and (min-width: 500px) {
+  .btn-container {
+    min-width: 500px;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  .btn-container {
+    min-width: 700px;
+  }
+}
